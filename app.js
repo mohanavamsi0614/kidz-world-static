@@ -86,5 +86,5 @@ cart.onclick=()=>{
         console.log(i+1+".","Name: "+v.name,"quantity: "+v.quantity)
         t+=v.quantity*v.prize
         })
-    console.log("total bill: $"+Math.ceil(t))
+    console.log("total bill: $"+Math.floor(t)+"round offer appliyed!")
 }
